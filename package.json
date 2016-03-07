@@ -1,6 +1,6 @@
 {
   "name": "passport-http-header-strategy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP Bearer set header authentication strategy for Passport",
   "main": "./lib",
   "dependencies": {
@@ -40,5 +40,5 @@
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/MIT"
     }
-  ],
+  ]
 }
