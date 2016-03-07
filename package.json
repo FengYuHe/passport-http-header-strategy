@@ -4,10 +4,13 @@
   "description": "HTTP Bearer set header authentication strategy for Passport",
   "main": "./lib",
   "dependencies": {
+    "mocha": "^2.4.5",
     "passport-strategy": "^1.0.0",
     "should": "^8.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "2.x.x"
+    },
   "scripts": {
     "test": "mocha"
   },
