@@ -4,7 +4,8 @@
   "description": "HTTP Bearer set header authentication strategy for Passport",
   "main": "./lib",
   "dependencies": {
-    "passport-strategy": "^1.0.0"
+    "passport-strategy": "^1.0.0",
+    "should": "^8.2.2"
   },
   "devDependencies": {},
   "scripts": {

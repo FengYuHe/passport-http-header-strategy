@@ -1,4 +1,4 @@
-var headerStrategy = require('./lib/strategy');
+var headerStrategy = require('../lib/strategy');
 var should = require('should');
 
 describe('Strategy', function() {
