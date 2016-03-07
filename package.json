@@ -1,0 +1,44 @@
+{
+  "name": "passport-http-header-strategy",
+  "version": "1.0.0",
+  "description": "HTTP Bearer set header authentication strategy for Passport",
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "passport",
+    "header",
+    "auth",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "http",
+    "bearer",
+    "token",
+    "oauth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FengYuHe/passport-http-header-strategy.git"
+  },
+  "bugs": {
+    "url": "http://github.com/FengYuHe/passport-http-header-strategy/issues"
+  },
+  "author": {
+    "name": "FengYuHe",
+    "email": "heyufeng8080@gmail.com",
+    "url": "https://github.com/FengYuHe/passport-http-header-strategy"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+}
