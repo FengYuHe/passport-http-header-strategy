@@ -11,16 +11,17 @@ HTTP define header authentication strategy for[Passport](https://github.com/jare
 * `header` 设置请求头
 *  `passReqToCallback` 是否返回
 #### Configure Strategy
-
-	passport.use(new headerStrategy({header: 'X-APP-TOKEN' ,passReqToCallback: true},
-	  function(req, token, done) {
-	    User.findOne({ token: token }, function (err, user) {
-	      if (err) { return done(err); }
-	      if (!user) { return done(null, false); }
-	      return done(null, user, { scope: 'all' });
-	    });
-	  }
-	));
+```js
+passport.use(new headerStrategy({header: 'X-APP-TOKEN' ,passReqToCallback: true},
+  function(req, token, done) {
+    User.findOne({ token: token }, function (err, user) {
+      if (err) { return done(err); }
+      if (!user) { return done(null, false); }
+      return done(null, user, { scope: 'all' });
+    });
+  }
+));
+```
 
 #### Authenticate Requests
 
