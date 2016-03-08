@@ -1,6 +1,6 @@
 {
   "name": "passport-http-header-strategy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTTP Bearer set header authentication strategy for Passport",
   "main": "./lib",
   "dependencies": {
