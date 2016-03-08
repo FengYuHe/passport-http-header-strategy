@@ -11,6 +11,7 @@ HTTP define header authentication strategy for[Passport](https://github.com/jare
 * `header` 设置请求头(默认authorization)
 * `param` 设置以`req.body`或`req.query`参数形式请求的`token`名称(默认access_token)
 *  `passReqToCallback` 是否返回
+
 #### Configure Strategy
 ```js
 passport.use(new headerStrategy({header: 'X-APP-TOKEN', param: 'app_token', passReqToCallback: true},
