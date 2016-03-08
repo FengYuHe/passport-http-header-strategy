@@ -35,7 +35,7 @@ For example, as route middleware in an [Express](http://expressjs.com/)
 application:
 
     app.get('/profile', 
-      passport.authenticate('bearer', { session: false }),
+      passport.authenticate('header', { session: false }),
       function(req, res) {
         res.json(req.user);
       });
