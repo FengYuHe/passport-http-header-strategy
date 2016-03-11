@@ -11,7 +11,7 @@ passport.use(new headerStrategy({header:'X-APP-TOKEN', passReqToCallback: true},
   }
 ));
 
-var authenticate = passport.authenticate('bearer', {session: false, failWithError: true});
+var authenticate = passport.authenticate('header', {session: false, failWithError: true});
 
 app.use('/', function(req, res){
 	authenticate(req, res, function (err) {
