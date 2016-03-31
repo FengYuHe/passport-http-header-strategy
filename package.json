@@ -1,15 +1,15 @@
 {
   "name": "passport-http-header-strategy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "HTTP Bearer set header authentication strategy for Passport",
   "main": "./lib",
   "dependencies": {
     "passport-strategy": "^1.0.0"
   },
   "devDependencies": {
-  	"mocha": "^2.4.5",
+    "mocha": "^2.4.5",
     "should": "^8.2.2"
-    },
+  },
   "scripts": {
     "test": "mocha"
   },
