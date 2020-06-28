@@ -8,9 +8,9 @@ HTTP define header authentication strategy for [Passport](https://github.com/jar
 	$ npm install passport-http-header-strategy
 
 ## Usage
-* `header` 设置请求头(默认authorization)
-* `param` 设置以`req.body`或`req.query`参数形式请求的`token`名称(默认access_token)
-*  `passReqToCallback` 是否返回
+* `header` set header(default `authorization`)
+* `param` set use `req.body` or `req.query` `token` name to request(default `access_token`)
+*  `passReqToCallback` if eturn
 
 #### Configure Strategy
 ```js
@@ -41,15 +41,15 @@ application:
       });
 
 ## Examples
-[examples](https://github.com/FengYuHe/passport-http-header-strategy/tree/master/examples) - 示例
+[examples](https://github.com/FengYuHe/passport-http-header-strategy/tree/master/examples) - example
 
 ## Tests
 	
 	$ npm install
 	$ mocha
 
-## 参考
-参考[Jared Hanson](https://github.com/jaredhanson)的[passport-http-bearer](https://github.com/jaredhanson/passport-http-bearer)模块
+## Reference
+Refer[Jared Hanson](https://github.com/jaredhanson) [passport-http-bearer](https://github.com/jaredhanson/passport-http-bearer) module
 
 ## License
 [The MIT License](http://opensource.org/licenses/MIT)
